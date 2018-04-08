@@ -291,7 +291,7 @@ footer img {
     background-image: none;
 }
 
-.about-us {
+.banner {
     position: absolute;
     text-align: center;
     color: #fff;
@@ -320,12 +320,8 @@ footer img {
     z-index: 4;
 }
 
-.new {
-    color: #000;
-}
-
 @media only screen and (max-width: 980px) {
-    .about-us {
+    .banner {
         position: static;
     }
 
@@ -341,3 +337,59 @@ footer img {
     }
 }
 
+/*contact.html*/
+
+.contact-us {
+    width: 80%;
+    margin: 420px auto 5em auto;
+    z-index: 4;
+    display: flex;
+    justify-content: center;
+}
+
+.google-maps {
+    background-color: aquamarine;
+    height: 400px;
+    width: 50%;
+    margin-right: 5em;
+}
+
+textarea {
+    resize: none;
+    width: 90.5%;
+    height: 150px;
+}
+
+.contact-form {
+    border: 1px solid #000000;
+    width: 50%;
+    text-align: center;
+}
+
+.contact-form p {
+    padding-top: 5em;
+}
+
+.contact-items input {
+    width: 45%;
+}
+
+.button {
+    width: 95%;
+    text-align: right;
+}
+
+@media only screen and (max-width: 980px) {
+
+    .contact-us {
+        display: block;
+        margin: 2em auto 5em auto;
+    }
+
+    .google-maps,
+    .contact-form {
+        width: 100%;
+        margin-bottom: 3em;
+    }
+
+}
